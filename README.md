@@ -1,4 +1,4 @@
-# 
+# Swift Game Development
 
 <a href="https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
 
@@ -7,7 +7,7 @@ This is the code repository for [](https://www.packtpub.com/game-development/swi
 **Learn 3D game development for iOS 12 using SceneKit and Swift**
 
 ## What is this book about?
-0
+Swift is the perfect choice for game development. Developers are intrigued by Swift and want to make use of new features to develop their best games yet. Packed with best practices and easy-to-use examples, this book leads you step by step through the development of your first Swift game. 
 
 This book covers the following exciting features:
 
@@ -40,17 +40,10 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1-17 | Xcode (10.0 +)  | Mac OS X |
 
-
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
-
 ### Related products
 * Hands-On Full-Stack Development with Swift [[Packt]](https://www.packtpub.com/web-development/hands-full-stack-development-swift?utm_source=github&utm_medium=repository&utm_campaign=9781788625241 ) [[Amazon]](https://www.amazon.com/dp/1788625242)
 
 * Learn Swift by Building Applications [[Packt]](https://www.packtpub.com/application-development/learn-swift-building-applications?utm_source=github&utm_medium=repository&utm_campaign=9781786463920 ) [[Amazon]](https://www.amazon.com/dp/178646392X)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Siddharth Shekar**
@@ -75,5 +68,3 @@ He enjoyed writing this book and sincerely hopes that it directly furthers your 
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
-
-
