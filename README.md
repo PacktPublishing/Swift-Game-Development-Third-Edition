@@ -62,13 +62,13 @@ He enjoyed writing this book and sincerely hopes that it directly furthers your 
 
 
 ## Other books by the authors
-[Mastering Android Game Development with Unity](https://www.packtpub.com/game-development/mastering-android-game-development-unity?utm_source=github&utm_medium=repository&utm_campaign=9781783550777 )
+* [Mastering Android Game Development with Unity](https://www.packtpub.com/game-development/mastering-android-game-development-unity?utm_source=github&utm_medium=repository&utm_campaign=9781783550777 )
 
-[Cocos2d Cross-Platform Game Development Cookbook - Second Edition](https://www.packtpub.com/game-development/cocos2d-cross-platform-game-development-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784393236 )
+* [Cocos2d Cross-Platform Game Development Cookbook - Second Edition](https://www.packtpub.com/game-development/cocos2d-cross-platform-game-development-cookbook-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781784393236 )
 
-[Game Development with Swift](https://www.packtpub.com/game-development/game-development-swift?utm_source=github&utm_medium=repository&utm_campaign=9781783550531 )
+* [Game Development with Swift](https://www.packtpub.com/game-development/game-development-swift?utm_source=github&utm_medium=repository&utm_campaign=9781783550531 )
 
-[Swift 3 Game Development - Second Edition](https://www.packtpub.com/application-development/swift-3-game-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787127753 )
+* [Swift 3 Game Development - Second Edition](https://www.packtpub.com/application-development/swift-3-game-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787127753 )
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
