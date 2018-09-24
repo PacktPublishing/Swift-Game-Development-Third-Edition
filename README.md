@@ -1,8 +1,8 @@
 # Swift Game Development
 
-<a href="https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08760.png" alt="" height="256px" align="right"></a>
 
-This is the code repository for [](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Swift Game Development](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
 
 **Learn 3D game development for iOS 12 using SceneKit and Swift**
 
@@ -10,7 +10,11 @@ This is the code repository for [](https://www.packtpub.com/game-development/swi
 Swift is the perfect choice for game development. Developers are intrigued by Swift and want to make use of new features to develop their best games yet. Packed with best practices and easy-to-use examples, this book leads you step by step through the development of your first Swift game. 
 
 This book covers the following exciting features:
-
+* Deliver powerful graphics, physics, and sound in your game by using SpriteKit and SceneKit
+* Set up the scene using the new capabilities of the scene editor and custom classes
+* Maximize gameplay with little-known tips and strategies for fun and repeatable action
+* Make use of animations, graphics, and particles to polish your game
+* Understand the current mobile monetization landscape 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1788471156) today!
 
