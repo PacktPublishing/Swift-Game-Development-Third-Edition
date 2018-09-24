@@ -133,7 +133,7 @@ class GameSCNScene: SCNScene,SCNPhysicsContactDelegate  {
         
             // If they're logged in, create the leaderboard button
             // (This will only apply to players returning to the menu)
-            if GKLocalPlayer.localPlayer().isAuthenticated {
+            if GKLocalPlayer.local.isAuthenticated {
             
                 print(" +++ player is authenticated +++")
                 skScene.isPlayerAuthenticated = true

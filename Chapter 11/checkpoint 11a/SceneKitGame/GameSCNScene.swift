@@ -80,7 +80,7 @@ class GameSCNScene: SCNScene{
 
     func addFloorNode(){
         
-        var floorNode = SCNNode()
+        let floorNode = SCNNode()
         floorNode.geometry = SCNFloor()
         floorNode.position.y = -1.0
         self.rootNode.addChildNode(floorNode)

@@ -42,7 +42,7 @@ class GameViewController: UIViewController,SCNSceneRendererDelegate,GADBannerVie
     
     func authenticateLocalPlayer() {
         // Create a new Game Center localPlayer instance:
-        let localPlayer = GKLocalPlayer.localPlayer()
+        let localPlayer = GKLocalPlayer.local
         // Create a function to check if they authenticated
         // or show them the log in screen:
         localPlayer.authenticateHandler =
@@ -105,7 +105,7 @@ class GameViewController: UIViewController,SCNSceneRendererDelegate,GADBannerVie
             [NSLayoutConstraint(item: bannerView,
                                 attribute: .bottom,
                                 relatedBy: .equal,
-                                toItem: bottomLayoutGuide,
+                                toItem: view.safeAreaLayoutGuide.topAnchor ,
                                 attribute: .top,
                                 multiplier: 1,
                                 constant: 0),

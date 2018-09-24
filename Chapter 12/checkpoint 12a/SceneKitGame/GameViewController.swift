@@ -78,7 +78,7 @@ class GameViewController: UIViewController,SCNSceneRendererDelegate,GADBannerVie
             [NSLayoutConstraint(item: bannerView,
                                 attribute: .bottom,
                                 relatedBy: .equal,
-                                toItem: bottomLayoutGuide,
+                                toItem: view.safeAreaLayoutGuide.topAnchor,
                                 attribute: .top,
                                 multiplier: 1,
                                 constant: 0),

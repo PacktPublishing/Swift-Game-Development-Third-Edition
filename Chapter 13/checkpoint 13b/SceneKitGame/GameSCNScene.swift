@@ -133,7 +133,7 @@ class GameSCNScene: SCNScene,SCNPhysicsContactDelegate  {
         
             // If they're logged in, create the leaderboard button
             // (This will only apply to players returning to the menu)
-            if GKLocalPlayer.localPlayer().isAuthenticated {
+            if GKLocalPlayer.local.isAuthenticated {
             
                 print(" +++ player is authenticated +++")
                 skScene.isPlayerAuthenticated = true
@@ -207,7 +207,7 @@ class GameSCNScene: SCNScene,SCNPhysicsContactDelegate  {
     }
     
     func updateLeaderboard() {
-        if GKLocalPlayer.localPlayer().isAuthenticated {
+        if GKLocalPlayer.local.isAuthenticated {
             // Create a new score object, with our leaderboard:
             let highScore = GKScore(leaderboardIdentifier:"highscore")
             // Set the score value to our coin score:
@@ -227,7 +227,7 @@ class GameSCNScene: SCNScene,SCNPhysicsContactDelegate  {
     }
     
     func checkForAchievements() {
-        if GKLocalPlayer.localPlayer().isAuthenticated {
+        if GKLocalPlayer.local.isAuthenticated {
             // Check if they earned 200 coins in this game:
             if self.score >= 15 {
                 let achieve = GKAchievement(identifier: "score15")

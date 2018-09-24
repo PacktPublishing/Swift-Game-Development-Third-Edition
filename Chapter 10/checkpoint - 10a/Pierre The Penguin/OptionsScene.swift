@@ -108,7 +108,7 @@ class OptionsScene: SKScene {
         
         for touch in (touches) {
         let location = touch.location(in: self)
-        let nodeTouched = atPoint(location)
+        
             
             var xpos = location.x
             
@@ -119,7 +119,7 @@ class OptionsScene: SKScene {
             }
             
             sliderKnob.position = CGPoint(x:xpos,y: sliderKnob.position.y)
-            var volume = (sliderKnob.position.x - sliderBase.position.x)/sliderBase.frame.width
+            let volume = (sliderKnob.position.x - sliderBase.position.x)/sliderBase.frame.width
             
             BackgroundMusic.instance.setVolume(volume: Float(volume))
             }

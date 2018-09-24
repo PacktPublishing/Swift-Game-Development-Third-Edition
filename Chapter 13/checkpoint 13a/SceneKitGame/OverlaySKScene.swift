@@ -161,7 +161,7 @@ class OverlaySKScene: SKScene,SKPaymentTransactionObserver, SKProductsRequestDel
     
     func inAppPurchase(){
         
-        let alert = UIAlertController(title: "In App Purchases", message: "", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController(title: "In App Purchases", message: "", preferredStyle: UIAlertController.Style.alert)
         
         for i in 0 ..< products.count{
             let currentProduct = products[i]
@@ -174,7 +174,7 @@ class OverlaySKScene: SKScene,SKPaymentTransactionObserver, SKProductsRequestDel
                 numberFormatter.numberStyle = .currency
                 numberFormatter.locale = currentProduct.priceLocale
                 
-                alert.addAction(UIAlertAction(title:currentProduct.localizedTitle + " : " + numberFormatter.string(from:           currentProduct.price)!,style:UIAlertActionStyle.default){_ in
+                alert.addAction(UIAlertAction(title:currentProduct.localizedTitle + " : " + numberFormatter.string(from:           currentProduct.price)!,style:UIAlertAction.Style.default){_ in
                     
                     self.buyProduct(product: currentProduct)
                     
@@ -183,13 +183,13 @@ class OverlaySKScene: SKScene,SKPaymentTransactionObserver, SKProductsRequestDel
         }
         
         if(noAdsPurchased == false){
-            alert.addAction(UIAlertAction(title:"Restore", style:UIAlertActionStyle.default){_ in
+            alert.addAction(UIAlertAction(title:"Restore", style:UIAlertAction.Style.default){_ in
                 self.restorePurchaseProducts()
             })
         }
         
         
-        alert.addAction(UIAlertAction(title:"Cancel",style:UIAlertActionStyle.default){_ in
+        alert.addAction(UIAlertAction(title:"Cancel",style:UIAlertAction.Style.default){_ in
             print("cancelled purchase")
         })
         
@@ -208,7 +208,7 @@ class OverlaySKScene: SKScene,SKPaymentTransactionObserver, SKProductsRequestDel
     //Called when processing the purchase
     func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
         
-        for transaction in transactions as![SKPaymentTransaction]{
+        for transaction in transactions {
             
             switch(transaction.transactionState){
                 
