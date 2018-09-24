@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D023F931FAC0E6200DAE75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D023F921FAC0E6200DAE75E /* AppDelegate.swift */; };
+		8D023F951FAC0E6200DAE75E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D023F941FAC0E6200DAE75E /* GameScene.sks */; };
+		8D023F971FAC0E6200DAE75E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D023F961FAC0E6200DAE75E /* Actions.sks */; };
+		8D023F991FAC0E6200DAE75E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D023F981FAC0E6200DAE75E /* GameScene.swift */; };
+		8D023F9B1FAC0E6200DAE75E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D023F9A1FAC0E6200DAE75E /* GameViewController.swift */; };
+		8D023F9E1FAC0E6200DAE75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D023F9C1FAC0E6200DAE75E /* Main.storyboard */; };
+		8D023FA01FAC0E6200DAE75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D023F9F1FAC0E6200DAE75E /* Assets.xcassets */; };
+		8D023FA31FAC0E6200DAE75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D023FA11FAC0E6200DAE75E /* LaunchScreen.storyboard */; };
+		8D2CDCEE1FC77B1B007FF820 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CDCED1FC77B1B007FF820 /* MenuScene.swift */; };
+		8D37A51F1FBB95A800B59E93 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37A51E1FBB95A800B59E93 /* Star.swift */; };
+		8D37A5211FBB95F200B59E93 /* MadFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37A5201FBB95F200B59E93 /* MadFly.swift */; };
+		8D37A5231FBB965700B59E93 /* Bat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37A5221FBB965700B59E93 /* Bat.swift */; };
+		8D37A5251FBB969000B59E93 /* Blade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37A5241FBB969000B59E93 /* Blade.swift */; };
+		8D37A5271FBB96FC00B59E93 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D37A5261FBB96FC00B59E93 /* Coin.swift */; };
+		8D3967071FC50F100076D16D /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3967061FC50F100076D16D /* HUD.swift */; };
+		8D3967091FC512460076D16D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3967081FC512460076D16D /* Background.swift */; };
+		8D39670B1FC514790076D16D /* PierrePath.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D39670A1FC514790076D16D /* PierrePath.sks */; };
+		8DAE2BC11FB5087D009870ED /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE2BC01FB5087D009870ED /* GameSprite.swift */; };
+		8DAE2BC31FB5095E009870ED /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE2BC21FB5095E009870ED /* Bee.swift */; };
+		8DAE2BC51FB50E32009870ED /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE2BC41FB50E32009870ED /* Ground.swift */; };
+		8DAE2BC71FB510AA009870ED /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE2BC61FB510AA009870ED /* Player.swift */; };
+		8DBA2E141FBE4CFE00EB20F6 /* EncounterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA2E131FBE4CFE00EB20F6 /* EncounterManager.swift */; };
+		8DBA2E1A1FBE524F00EB20F6 /* EncounterA.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA2E191FBE524400EB20F6 /* EncounterA.sks */; };
+		8DF961AF1FBE562B001C200B /* EncounterB.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DF961AD1FBE5617001C200B /* EncounterB.sks */; };
+		8DF961B01FBE562B001C200B /* EncounterC.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8DF961AE1FBE5618001C200B /* EncounterC.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D023F8F1FAC0E6200DAE75E /* Pierre The Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pierre The Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D023F921FAC0E6200DAE75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D023F941FAC0E6200DAE75E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8D023F961FAC0E6200DAE75E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		8D023F981FAC0E6200DAE75E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8D023F9A1FAC0E6200DAE75E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8D023F9D1FAC0E6200DAE75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D023F9F1FAC0E6200DAE75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D023FA21FAC0E6200DAE75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D023FA41FAC0E6200DAE75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2CDCED1FC77B1B007FF820 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		8D37A51E1FBB95A800B59E93 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		8D37A5201FBB95F200B59E93 /* MadFly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadFly.swift; sourceTree = "<group>"; };
+		8D37A5221FBB965700B59E93 /* Bat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bat.swift; sourceTree = "<group>"; };
+		8D37A5241FBB969000B59E93 /* Blade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blade.swift; sourceTree = "<group>"; };
+		8D37A5261FBB96FC00B59E93 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		8D3967061FC50F100076D16D /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		8D3967081FC512460076D16D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8D39670A1FC514790076D16D /* PierrePath.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PierrePath.sks; sourceTree = "<group>"; };
+		8DAE2BC01FB5087D009870ED /* GameSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
+		8DAE2BC21FB5095E009870ED /* Bee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
+		8DAE2BC41FB50E32009870ED /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		8DAE2BC61FB510AA009870ED /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8DBA2E131FBE4CFE00EB20F6 /* EncounterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterManager.swift; sourceTree = "<group>"; };
+		8DBA2E191FBE524400EB20F6 /* EncounterA.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = EncounterA.sks; path = "Pierre The Penguin/EncounterA.sks"; sourceTree = SOURCE_ROOT; };
+		8DF961AD1FBE5617001C200B /* EncounterB.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = EncounterB.sks; path = "Pierre The Penguin/EncounterB.sks"; sourceTree = SOURCE_ROOT; };
+		8DF961AE1FBE5618001C200B /* EncounterC.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = EncounterC.sks; path = "Pierre The Penguin/EncounterC.sks"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D023F8C1FAC0E6200DAE75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D023F861FAC0E6200DAE75E = {
+			isa = PBXGroup;
+			children = (
+				8D023F911FAC0E6200DAE75E /* Pierre The Penguin */,
+				8D023F901FAC0E6200DAE75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D023F901FAC0E6200DAE75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D023F8F1FAC0E6200DAE75E /* Pierre The Penguin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D023F911FAC0E6200DAE75E /* Pierre The Penguin */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6424B1FBE413F00F2A7AE /* Encounters */,
+				8D023FA41FAC0E6200DAE75E /* Info.plist */,
+				8D023F961FAC0E6200DAE75E /* Actions.sks */,
+				8D023F941FAC0E6200DAE75E /* GameScene.sks */,
+				8D023F921FAC0E6200DAE75E /* AppDelegate.swift */,
+				8D37A5221FBB965700B59E93 /* Bat.swift */,
+				8DAE2BC21FB5095E009870ED /* Bee.swift */,
+				8D37A5241FBB969000B59E93 /* Blade.swift */,
+				8D37A5261FBB96FC00B59E93 /* Coin.swift */,
+				8D023F981FAC0E6200DAE75E /* GameScene.swift */,
+				8DAE2BC01FB5087D009870ED /* GameSprite.swift */,
+				8D023F9A1FAC0E6200DAE75E /* GameViewController.swift */,
+				8DAE2BC41FB50E32009870ED /* Ground.swift */,
+				8D37A5201FBB95F200B59E93 /* MadFly.swift */,
+				8DAE2BC61FB510AA009870ED /* Player.swift */,
+				8D37A51E1FBB95A800B59E93 /* Star.swift */,
+				8D023F9F1FAC0E6200DAE75E /* Assets.xcassets */,
+				8D023FA11FAC0E6200DAE75E /* LaunchScreen.storyboard */,
+				8D023F9C1FAC0E6200DAE75E /* Main.storyboard */,
+				8D3967061FC50F100076D16D /* HUD.swift */,
+				8D3967081FC512460076D16D /* Background.swift */,
+				8D39670A1FC514790076D16D /* PierrePath.sks */,
+				8D2CDCED1FC77B1B007FF820 /* MenuScene.swift */,
+			);
+			path = "Pierre The Penguin";
+			sourceTree = "<group>";
+		};
+		8DD6424B1FBE413F00F2A7AE /* Encounters */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA2E191FBE524400EB20F6 /* EncounterA.sks */,
+				8DF961AD1FBE5617001C200B /* EncounterB.sks */,
+				8DF961AE1FBE5618001C200B /* EncounterC.sks */,
+				8DBA2E131FBE4CFE00EB20F6 /* EncounterManager.swift */,
+			);
+			path = Encounters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D023F8E1FAC0E6200DAE75E /* Pierre The Penguin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D023FA71FAC0E6200DAE75E /* Build configuration list for PBXNativeTarget "Pierre The Penguin" */;
+			buildPhases = (
+				8D023F8B1FAC0E6200DAE75E /* Sources */,
+				8D023F8C1FAC0E6200DAE75E /* Frameworks */,
+				8D023F8D1FAC0E6200DAE75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pierre The Penguin";
+			productName = "Pierre The Penguin";
+			productReference = 8D023F8F1FAC0E6200DAE75E /* Pierre The Penguin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D023F871FAC0E6200DAE75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Growl Games Studio";
+				TargetAttributes = {
+					8D023F8E1FAC0E6200DAE75E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D023F8A1FAC0E6200DAE75E /* Build configuration list for PBXProject "Pierre The Penguin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D023F861FAC0E6200DAE75E;
+			productRefGroup = 8D023F901FAC0E6200DAE75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D023F8E1FAC0E6200DAE75E /* Pierre The Penguin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D023F8D1FAC0E6200DAE75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF961AF1FBE562B001C200B /* EncounterB.sks in Resources */,
+				8DF961B01FBE562B001C200B /* EncounterC.sks in Resources */,
+				8DBA2E1A1FBE524F00EB20F6 /* EncounterA.sks in Resources */,
+				8D023F9E1FAC0E6200DAE75E /* Main.storyboard in Resources */,
+				8D023F951FAC0E6200DAE75E /* GameScene.sks in Resources */,
+				8D023FA01FAC0E6200DAE75E /* Assets.xcassets in Resources */,
+				8D39670B1FC514790076D16D /* PierrePath.sks in Resources */,
+				8D023FA31FAC0E6200DAE75E /* LaunchScreen.storyboard in Resources */,
+				8D023F971FAC0E6200DAE75E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D023F8B1FAC0E6200DAE75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAE2BC51FB50E32009870ED /* Ground.swift in Sources */,
+				8DAE2BC31FB5095E009870ED /* Bee.swift in Sources */,
+				8DAE2BC11FB5087D009870ED /* GameSprite.swift in Sources */,
+				8D023F991FAC0E6200DAE75E /* GameScene.swift in Sources */,
+				8DAE2BC71FB510AA009870ED /* Player.swift in Sources */,
+				8D37A5231FBB965700B59E93 /* Bat.swift in Sources */,
+				8D37A5271FBB96FC00B59E93 /* Coin.swift in Sources */,
+				8D023F9B1FAC0E6200DAE75E /* GameViewController.swift in Sources */,
+				8D023F931FAC0E6200DAE75E /* AppDelegate.swift in Sources */,
+				8D37A5251FBB969000B59E93 /* Blade.swift in Sources */,
+				8D37A5211FBB95F200B59E93 /* MadFly.swift in Sources */,
+				8D3967071FC50F100076D16D /* HUD.swift in Sources */,
+				8DBA2E141FBE4CFE00EB20F6 /* EncounterManager.swift in Sources */,
+				8D2CDCEE1FC77B1B007FF820 /* MenuScene.swift in Sources */,
+				8D37A51F1FBB95A800B59E93 /* Star.swift in Sources */,
+				8D3967091FC512460076D16D /* Background.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D023F9C1FAC0E6200DAE75E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D023F9D1FAC0E6200DAE75E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D023FA11FAC0E6200DAE75E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D023FA21FAC0E6200DAE75E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D023FA51FAC0E6200DAE75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D023FA61FAC0E6200DAE75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D023FA81FAC0E6200DAE75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJ7MQ3AE9;
+				INFOPLIST_FILE = "Pierre The Penguin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.growlgamesstudio.Pierre-The-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D023FA91FAC0E6200DAE75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJ7MQ3AE9;
+				INFOPLIST_FILE = "Pierre The Penguin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.growlgamesstudio.Pierre-The-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D023F8A1FAC0E6200DAE75E /* Build configuration list for PBXProject "Pierre The Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D023FA51FAC0E6200DAE75E /* Debug */,
+				8D023FA61FAC0E6200DAE75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D023FA71FAC0E6200DAE75E /* Build configuration list for PBXNativeTarget "Pierre The Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D023FA81FAC0E6200DAE75E /* Debug */,
+				8D023FA91FAC0E6200DAE75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D023F871FAC0E6200DAE75E /* Project object */;
+}
