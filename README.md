@@ -49,7 +49,7 @@ With the following software and hardware list you can run all code files present
 
 * Learn Swift by Building Applications [[Packt]](https://www.packtpub.com/application-development/learn-swift-building-applications?utm_source=github&utm_medium=repository&utm_campaign=9781786463920 ) [[Amazon]](https://www.amazon.com/dp/178646392X)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Siddharth Shekar**
 is a game developer and teacher with over 5 years of industry experience and 12 years of experience in C++ and other programming languages, and is adept at graphics libraries like OpenGL and Vulkan and game engines such as Unity and Unreal. He has also published games on the iOS and Android App Stores. 
 Siddharth has also authored 4 books including Mastering Android Game Development with Unity and Learning iOS 8 Game Development Using Swift, all published by Packt Publishing
