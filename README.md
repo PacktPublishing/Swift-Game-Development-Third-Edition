@@ -1,8 +1,8 @@
 # Swift Game Development
 
-<a href="https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08760.png" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788471152"><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08760.png" alt="" height="256px" align="right"></a>
 
-This is the code repository for [Swift Game Development](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Swift Game Development](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788471152), published by Packt.
 
 **Learn 3D game development for iOS 12 using SceneKit and Swift**
 
