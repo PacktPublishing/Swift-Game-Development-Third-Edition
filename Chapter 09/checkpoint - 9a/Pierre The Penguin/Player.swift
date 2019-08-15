@@ -153,16 +153,17 @@ class Player : SKSpriteNode, GameSprite {
         self.alpha = 1
         // Remove all animations:
         self.removeAllActions()
-        // Run the die animation:
-        self.run(self.dieAnimation)
         // Prevent any further upward movement:
         self.flapping = false
         // Stop forward movement:
         self.forwardVelocity = 0
         
-        // Alert the GameScene:
-        if let gameScene = self.parent as? GameScene {
-            gameScene.gameOver()
+        // Run the die animation:
+        self.run(self.dieAnimation) {
+            //Alert the GameScene:
+            if let gameScene = self.parent as? GameScene {
+                gameScene.gameOver()
+            }
         }
 
     }
@@ -308,7 +309,9 @@ class Player : SKSpriteNode, GameSprite {
             // Rotate the penguin on to his back:
             SKAction.rotate(toAngle: 3, duration: 1.5),
             SKAction.wait(forDuration: 0.5),
-            endDie
+            endDie,
+            // Allow time for penguin to fall to the ground with gravity
+            SKAction.wait(forDuration: 3.0)
             ])
 
 
