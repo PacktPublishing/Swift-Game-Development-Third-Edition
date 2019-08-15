@@ -52,7 +52,7 @@ class OptionsScene: SKScene {
         
         //add slider base asset
         sliderBase.texture = textureAtlas.textureNamed("slider-base")
-        sliderBase.position = CGPoint(x: 50, y: 0)
+        sliderBase.position = CGPoint(x: 0, y: 0)
         sliderBase.size = CGSize(width: 200, height: 20)
         sliderBase.anchorPoint = CGPoint(x: 0, y: 0.5)
         self.addChild(sliderBase)
