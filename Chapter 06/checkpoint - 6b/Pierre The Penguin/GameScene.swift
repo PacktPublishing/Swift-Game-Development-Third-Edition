@@ -92,27 +92,24 @@ class GameScene: SKScene {
             encounterManager.placeNextEncounter(
                 currentXPos: nextEncounterSpawnPosition)
             nextEncounterSpawnPosition += 1200
-        }
-        
-        // Each encounter has a 10% chance to spawn a star:
-        let starRoll = Int(arc4random_uniform(10))
-        if starRoll == 0 {
-            // Only move the star if it is off the screen.
-            if abs(player.position.x - powerUpStar.position.x)
-                > 1200 {
-                // Y Position 50-450:
-                let randomYPos = 50 +
-                    CGFloat(arc4random_uniform(400))
-                powerUpStar.position = CGPoint(x:
-                    nextEncounterSpawnPosition, y: randomYPos)
-                // Remove any previous velocity and spin:
-                powerUpStar.physicsBody?.angularVelocity = 0
-                powerUpStar.physicsBody?.velocity =
-                    CGVector(dx: 0, dy: 0)
+            
+            // Each encounter has a 10% chance to spawn a star:
+            let starRoll = Int(arc4random_uniform(10))
+            //let starRoll = 0
+            
+            if starRoll == 0 {
+                // Only move the star if it is off the screen.
+                if abs(player.position.x - powerUpStar.position.x)  > 1200 {
+                    // Y Position 50-450:
+                    let randomYPos = 50 + CGFloat(arc4random_uniform(400))
+                    powerUpStar.position = CGPoint(x: nextEncounterSpawnPosition, y: randomYPos)
+                    // Remove any previous velocity and spin:
+                    powerUpStar.physicsBody?.angularVelocity = 0
+                    powerUpStar.physicsBody?.velocity =
+                        CGVector(dx: 0, dy: 0)
+                }
             }
         }
-
-
 
     }
     
